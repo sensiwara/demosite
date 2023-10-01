@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div class="white-box">
+        <div class="button-container">
+            <button class="button" onclick="showText(1)">Обо мне</button>
+            <button class="button" onclick="showText(2)">Навыки</button>
+            <button class="button" onclick="showText(3)">Проекты</button>
+        </div>
+        <div class="name">Федоров Артём</div>
+        <div class="intro-text">Привет!</div>
+        <div class="intro-text2">Давай знакомиться?</div>
+        <div class="subname">
+            <span id="typed-subname"></span>
+        </div>
+        <div class="text1">
+            <p>Приятно познакомиться, меня зовут Артём.</p> 
+            
+            <p>Мое сердце бьется в такт битам кода, а мои мысли плывут в мире алгоритмов и архитектуры. Я никогда не устанавливаю пределы своему обучению и росту, потому что в мире технологий всегда что-то новое и захватывающее.</p>
+            
+            <p>Я не просто программирую, я создаю произведения искусства. Мой код - это симфония, где каждая строка играет свою роль в гармонии. Моя цель - всегда достичь идеального баланса между чистотой, эффективностью и документацией, чтобы мои работы были как магнетическими для других разработчиков.</p>
+        </div>
+        <div class="text2">
+            <div class="column">
+                <a>Backend:</a>
+                <p class="programming-language"><em>Python</em></p>
+                <p class="programming-language"><em>PHP</em><br>(в планах)</p>
+            </div>
+            
+            <div class="column">
+                <a>Frontend:</a>
+                <p class="programming-language"><em>HTML</em></p>
+                <p class="programming-language"><em>CSS</em></p>
+                <p class="programming-language"><em>JavaScript</em></p>
+            </div>                  
+        </div>
+        <div class="text3">
+            <div class="image-container">
+                <div class="image-row">
+                    <a href="ссылка1.html" target="_blank" class="image-link link-1" onmouseover="showDescription(1)" onmouseout="hideDescription(1)">
+                        <div class="image-item">
+                            <img src="image1.jpg" alt="Изображение 1">
+                            <div class="image-description">Описание изображения 1</div>
+                        </div>
+                    </a>
+                    <a href="ссылка2.html" target="_blank" class="image-link link-2" onmouseover="showDescription(2)" onmouseout="hideDescription(2)">
+                        <div class="image-item">
+                            <img src="image2.jpg" alt="Изображение 2">
+                            <div class="image-description">Описание изображения 2</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-row">
+                    <a href="ссылка3.html" target="_blank" class="image-link link-3" onmouseover="showDescription(3)" onmouseout="hideDescription(3)">
+                        <div class="image-item">
+                            <img src="image3.jpg" alt="Изображение 3">
+                            <div class="image-description">Описание изображения 3</div>
+                        </div>
+                    </a>
+                    <a href="github.html" target="_blank" class="image-link link-4" onmouseover="showDescription(4)" onmouseout="hideDescription(4)">
+                        <div class="image-item">
+                            <img src="image4.jpg" alt="Изображение 4">
+                            <div class="image-description">Описание изображения 4</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
